@@ -1,0 +1,141 @@
+/* Owen Moogk - CSS for FRC Website */
+
+div.title{
+    background-color: black; 
+    padding: 10px;
+    margin: -10px;
+    color: white;
+}
+p.titlelinks{ 
+    text-align: center;
+}
+a.titlelinks{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: #009CD7;
+    transition-duration: .5s;
+}
+a.titlelinks:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: orange;
+    transition-duration: .5s;
+}
+a.currentpage{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: #ED1C24;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+p.normal{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+}
+img.homelinks{
+    width: 300px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 25%;
+}
+img.homelinks:hover{
+    width: 300px;
+    height: 200px;
+    border: 10px solid #009cd7;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+p.imagecaptions{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+div.bodygrey{
+    padding: 10px;
+    margin: -10px;
+    overflow: hidden;
+    color: black;
+    background-color: lightgrey;
+}
+div.bodywhite{
+    background: white;
+    color: black;
+    padding: 10px;
+    margin: -10px;
+    overflow: hidden;
+}
+span.image{
+    text-align: right;
+    width: 40%;
+    float: left;
+}
+span.text{
+    text-align: left;
+    width: 35%;
+    float: left;
+}
+p.title{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0px;
+}
+a.lm{
+    text-decoration: none;
+}
+button.lm{
+    background-color:#4287f5 ;
+    border: 2px solid black;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    padding: 15px;
+}
+div.learnmore{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+a.normal{
+    color: #009CD7;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+a.normal:hover{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+ul.normal{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+}
+div.column{
+    float: left;
+    width: 25%;
+    padding: 0px;
+    height: 300px;
+    text-align: center;
+}
+div.videos{
+    float: left;
+    width: 50%;
+    padding: 0px;
+    text-align: center;
+}
